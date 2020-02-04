@@ -1,5 +1,5 @@
 {
-	"name": "cviebrock/laravel-elasticsearch",
+	"name": "melcus/laravel-elasticsearch",
 	"description": "An easy way to use the official PHP ElasticSearch client in your Laravel applications.",
 	"keywords": [
 		"laravel",
@@ -8,10 +8,10 @@
 		"client"
 	],
 	"require": {
-		"php": ">=5.4.0",
+		"php": ">=7.1",
 		"elasticsearch/elasticsearch": "^5.4",
-		"illuminate/support": "~5",
-		"monolog/monolog": "~1"
+		"illuminate/support": "^5.8|^6.0",
+		"monolog/monolog": "^1|^2"
 	},
 	"license": "MIT",
 	"authors": [

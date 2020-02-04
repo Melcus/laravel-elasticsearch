@@ -8,10 +8,11 @@
 		"client"
 	],
 	"require": {
-		"php": ">=7.1",
+		"php": ">=7.2",
 		"elasticsearch/elasticsearch": "^5.4",
 		"illuminate/support": "^5.8|^6.0",
-		"monolog/monolog": "^1|^2"
+		"monolog/monolog": "^1|^2",
+		"illuminate/contracts": "~5.8.0|^6.0"
 	},
 	"license": "MIT",
 	"authors": [
